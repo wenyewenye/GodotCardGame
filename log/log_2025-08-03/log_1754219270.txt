@@ -1,0 +1,76 @@
+游戏开始
+turn start 当前回合数: 1
+[Bosque] 对 [Bosque] 回复了 0.0 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[Bosque] 对 [Bosque] 回复了 5.0 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[Bosque] 对 [Bosque] 回复了 9.5 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[Bosque] 对 [Bosque] 回复了 13.6 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[Bosque] 对 [Bosque] 回复了 17.3 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+[Bosque] 对 [Bosque] 回复了 20.6 HP
+%super%[Bosque] 对 [Bosque] 回复了 100.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[Bosque] 对 [Bosque] 回复了 8.6 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[Bosque] 对 [Bosque] 回复了 12.8 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[Bosque] 对 [Bosque] 回复了 16.6 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[Bosque] 对 [Bosque] 回复了 20.0 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[Bosque] 对 [Bosque] 回复了 23.0 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+[Bosque] 对 [Bosque] 回复了 25.7 HP
+%super%[Bosque] 对 [Bosque] 回复了 100.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[Bosque] 对 [Bosque] 回复了 13.2 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+turn end 当前回合数: 13
+turn start 当前回合数: 14
+[Bosque] 对 [Bosque] 回复了 16.9 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+[capitan] 死亡
+turn end 当前回合数: 14
+失败
+
+游戏结算

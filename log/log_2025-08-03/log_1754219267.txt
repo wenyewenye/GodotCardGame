@@ -1,0 +1,70 @@
+游戏开始
+turn start 当前回合数: 1
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 0.0 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 4.0 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 7.76 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 11.2 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 14.32 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+%super%[vampiro] 对 [capitan] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[vampiro] 对 [capitan] 造成了 25.0 伤害
+[vampiro] 对 [vampiro] 回复了 15.6 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[vampiro] 对 [capitan] 造成了 25.0 伤害
+[vampiro] 对 [vampiro] 回复了 18.4 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 20.96 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 23.36 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[vampiro] 对 [capitan] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 25.52 HP
+[capitan] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+%super%[vampiro] 对 [capitan] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[vampiro] 对 [capitan] 造成了 25.0 伤害
+[capitan] 死亡
+[vampiro] 对 [vampiro] 回复了 25.92 HP
+turn end 当前回合数: 13
+失败
+
+游戏结算

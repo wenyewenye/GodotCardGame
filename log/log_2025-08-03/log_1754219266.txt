@@ -1,0 +1,73 @@
+游戏开始
+turn start 当前回合数: 1
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+%super%[sonida] 对 [sonida] 回复了 30.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[sonida] 对 [capitan] 造成了 25.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[sonida] 对 [capitan] 造成了 25.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[sonida] 对 [capitan] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+%super%[sonida] 对 [sonida] 回复了 30.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[sonida] 对 [capitan] 造成了 25.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [sonida] 造成了 50.0 伤害
+turn end 当前回合数: 13
+turn start 当前回合数: 14
+[sonida] 对 [capitan] 造成了 25.0 伤害
+[capitan] 死亡
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 14
+失败
+
+游戏结算

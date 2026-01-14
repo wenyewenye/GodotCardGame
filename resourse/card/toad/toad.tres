@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dhjydyh1ygvgf"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_0w1lx"]
+[ext_resource type="Script" uid="uid://7uagqe25a5gg" path="res://resourse/card/toad/toad.gd" id="1_x7fm2"]
+[ext_resource type="Texture2D" uid="uid://c5hwganpkmijv" path="res://resourse/card/toad/toad.png" id="2_hmpom"]
+
+[sub_resource type="Resource" id="Resource_847f5"]
+script = ExtResource("1_0w1lx")
+max_health = 580
+skill_mana = 100
+base_attack = 48
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_x7fm2")
+index = 13
+name = "toad"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_847f5")
+img = ExtResource("2_hmpom")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

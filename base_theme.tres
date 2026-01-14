@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cgghb8or1pary"]
+
+[ext_resource type="StyleBox" uid="uid://p4jxagv5jm01" path="res://tip_sytle.tres" id="1_6qegq"]
+
+[resource]
+default_font_size = 16
+PanelContainer/styles/panel = ExtResource("1_6qegq")

@@ -1,0 +1,95 @@
+[gd_scene load_steps=16 format=3 uid="uid://bw2wc7h5t2dsm"]
+
+[ext_resource type="Script" uid="uid://df5b8lhfgdtia" path="res://scene/Battle.gd" id="1_i72oh"]
+[ext_resource type="Texture2D" uid="uid://c2kebgvms8o3m" path="res://resourse/img/background/space-9250868_1280.jpg" id="2_7l6my"]
+[ext_resource type="PackedScene" uid="uid://hva38od3mch4" path="res://scene/card_board/card_board.tscn" id="3_gu0yj"]
+[ext_resource type="Script" uid="uid://bq2vuveqcagu1" path="res://scene/card_repo.gd" id="4_hr15w"]
+[ext_resource type="PackedScene" uid="uid://t3vgmmvfyuhh" path="res://scene/card_ui/card_ui.tscn" id="5_dinjq"]
+[ext_resource type="Resource" uid="uid://be7uq7prwf1hc" path="res://resourse/card/warrior/warrior.tres" id="6_qxbua"]
+[ext_resource type="Resource" uid="uid://cb85jidnd8y2d" path="res://resourse/card/Sonido/sonida.tres" id="7_7l6my"]
+[ext_resource type="PackedScene" uid="uid://cp77omnrp0c0b" path="res://toolTip.tscn" id="7_trytt"]
+[ext_resource type="PackedScene" uid="uid://di0ufrg7l2s8d" path="res://scene/game_logger/game_loger.tscn" id="8_4u3ho"]
+[ext_resource type="Resource" uid="uid://ihfrcn5ka6br" path="res://resourse/card/sniper/sniper.tres" id="9_dinjq"]
+[ext_resource type="Resource" uid="uid://bw6hkwfv301am" path="res://resourse/card/monje/monje.tres" id="10_dinjq"]
+[ext_resource type="Resource" uid="uid://dh6wft8txdcpx" path="res://resourse/card/spider/spider.tres" id="11_qxbua"]
+[ext_resource type="Resource" uid="uid://b268pjdkcmijn" path="res://resourse/card/vampiro/vampiro.tres" id="11_trytt"]
+[ext_resource type="Resource" uid="uid://cmwec8mqujy8i" path="res://resourse/card/capitan/capitan.tres" id="12_trytt"]
+[ext_resource type="Resource" uid="uid://bos28065d27vo" path="res://resourse/card/bosque/bosque.tres" id="13_4u3ho"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_i72oh")
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(0.690196, 0.647059, 0.635294, 0.686275)
+position = Vector2(574, 321.5)
+scale = Vector2(0.9, 0.81125)
+texture = ExtResource("2_7l6my")
+metadata/_edit_lock_ = true
+
+[node name="CardBoard" parent="." groups=["Board", "board"] instance=ExtResource("3_gu0yj")]
+position = Vector2(365, 389)
+
+[node name="RepoCanvas" type="CanvasLayer" parent="." groups=["ui_layer"]]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="RepoCanvas"]
+custom_minimum_size = Vector2(80, 648)
+offset_right = 40.0
+offset_bottom = 40.0
+draw_focus_border = true
+
+[node name="CardRepo" type="VBoxContainer" parent="RepoCanvas/ScrollContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+script = ExtResource("4_hr15w")
+metadata/_edit_use_anchors_ = true
+
+[node name="CardUI" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("6_qxbua")
+
+[node name="CardUI2" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("7_7l6my")
+
+[node name="CardUI3" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("9_dinjq")
+
+[node name="CardUI4" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("11_trytt")
+
+[node name="CardUI5" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("10_dinjq")
+
+[node name="CardUI6" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("11_qxbua")
+
+[node name="CardUI7" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("12_trytt")
+
+[node name="CardUI8" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("13_4u3ho")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(573, 328)
+
+[node name="EnemyCardBoard" parent="." groups=["EnemyBoard"] instance=ExtResource("3_gu0yj")]
+position = Vector2(365, 0)
+
+[node name="ToolTip" parent="." instance=ExtResource("7_trytt")]
+offset_left = 985.0
+offset_top = 4.0
+offset_right = 1145.0
+offset_bottom = 244.0
+
+[node name="GameLogger" parent="." instance=ExtResource("8_4u3ho")]
+offset_left = 768.0
+offset_top = 442.0
+offset_right = 768.0
+offset_bottom = 442.0
+scale = Vector2(1.56904, 1.41993)

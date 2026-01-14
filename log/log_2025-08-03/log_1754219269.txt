@@ -1,0 +1,57 @@
+游戏开始
+turn start 当前回合数: 1
+[sniper] 对 [sonida] 造成了 50.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[sniper] 对 [sonida] 造成了 52.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[sniper] 对 [sonida] 造成了 54.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[sniper] 对 [sonida] 造成了 56.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[sniper] 对 [sonida] 造成了 58.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+%super%[sniper] 对 [sonida] 造成了 90.0 伤害
+%super%[sonida] 对 [sonida] 回复了 30.0 HP
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[sniper] 对 [sonida] 造成了 60.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[sniper] 对 [sonida] 造成了 63.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[sniper] 对 [sonida] 造成了 66.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[sniper] 对 [sonida] 造成了 69.0 伤害
+[sonida] 对 [sniper] 造成了 50.0 伤害
+[sonida] 对 [sonida] 回复了 15.0 HP
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[sniper] 对 [sonida] 造成了 72.0 伤害
+[sonida] 死亡
+turn end 当前回合数: 11
+胜利
+
+游戏结算

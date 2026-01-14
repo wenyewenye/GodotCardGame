@@ -1,0 +1,167 @@
+游戏开始
+turn start 当前回合数: 1
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 0.0 HP
+[Bosque] 对 [Bosque] 回复了 5.0 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 4.0 HP
+[Bosque] 对 [Bosque] 回复了 9.5 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 7.76 HP
+[Bosque] 对 [Bosque] 回复了 13.6 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 11.2 HP
+[Bosque] 对 [Bosque] 回复了 17.3 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 14.32 HP
+[Bosque] 对 [Bosque] 回复了 20.6 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+%super%[vampiro] 对 [Bosque] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[Bosque] 对 [Bosque] 回复了 20.6 HP
+%super%[Bosque] 对 [Bosque] 回复了 104.0 HP
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 15.6 HP
+[Bosque] 对 [Bosque] 回复了 13.2 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 18.4 HP
+[Bosque] 对 [Bosque] 回复了 16.9 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 20.96 HP
+[Bosque] 对 [Bosque] 回复了 20.3 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 23.36 HP
+[Bosque] 对 [Bosque] 回复了 23.3 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 25.52 HP
+[Bosque] 对 [Bosque] 回复了 26.0 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+%super%[vampiro] 对 [Bosque] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[Bosque] 对 [Bosque] 回复了 25.4 HP
+%super%[Bosque] 对 [Bosque] 回复了 104.0 HP
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 25.92 HP
+[Bosque] 对 [Bosque] 回复了 17.5 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 13
+turn start 当前回合数: 14
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 27.92 HP
+[Bosque] 对 [Bosque] 回复了 20.8 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 14
+turn start 当前回合数: 15
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 29.76 HP
+[Bosque] 对 [Bosque] 回复了 23.8 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 15
+turn start 当前回合数: 16
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 31.44 HP
+[Bosque] 对 [Bosque] 回复了 26.5 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 16
+turn start 当前回合数: 17
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 32.96 HP
+[Bosque] 对 [Bosque] 回复了 28.9 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 17
+turn start 当前回合数: 18
+%super%[vampiro] 对 [Bosque] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[Bosque] 对 [Bosque] 回复了 28.1 HP
+%super%[Bosque] 对 [Bosque] 回复了 104.0 HP
+turn end 当前回合数: 18
+turn start 当前回合数: 19
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 32.8 HP
+[Bosque] 对 [Bosque] 回复了 19.9 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 19
+turn start 当前回合数: 20
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 34.24 HP
+[Bosque] 对 [Bosque] 回复了 23.0 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 20
+turn start 当前回合数: 21
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 35.52 HP
+[Bosque] 对 [Bosque] 回复了 25.7 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 21
+turn start 当前回合数: 22
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 36.72 HP
+[Bosque] 对 [Bosque] 回复了 28.2 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 22
+turn start 当前回合数: 23
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 37.84 HP
+[Bosque] 对 [Bosque] 回复了 30.4 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 23
+turn start 当前回合数: 24
+%super%[vampiro] 对 [Bosque] 造成了 20.0 伤害
+%super%[vampiro] 对 [vampiro] 回复了 20.0 HP
+[Bosque] 对 [Bosque] 回复了 29.4 HP
+%super%[Bosque] 对 [Bosque] 回复了 104.0 HP
+turn end 当前回合数: 24
+turn start 当前回合数: 25
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 37.28 HP
+[Bosque] 对 [Bosque] 回复了 21.1 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 25
+turn start 当前回合数: 26
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 38.32 HP
+[Bosque] 对 [Bosque] 回复了 24.0 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+turn end 当前回合数: 26
+turn start 当前回合数: 27
+[vampiro] 对 [Bosque] 造成了 50.0 伤害
+[vampiro] 对 [vampiro] 回复了 39.28 HP
+[Bosque] 对 [Bosque] 回复了 26.6 HP
+[Bosque] 对 [vampiro] 造成了 50.0 伤害
+[vampiro] 死亡
+turn end 当前回合数: 27
+失败
+
+游戏结算

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dh6wft8txdcpx"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_6lw7v"]
+[ext_resource type="Script" uid="uid://dmn8kwdd126i1" path="res://resourse/card/spider/spider.gd" id="1_nrdy0"]
+[ext_resource type="Texture2D" uid="uid://x6ed6fcro2o8" path="res://resourse/card/spider/spider.png" id="2_8q3nk"]
+
+[sub_resource type="Resource" id="Resource_64m2u"]
+script = ExtResource("1_6lw7v")
+max_health = 480
+skill_mana = 80
+base_attack = 52
+start_mana = 80
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_nrdy0")
+index = 5
+name = "spider"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_64m2u")
+img = ExtResource("2_8q3nk")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

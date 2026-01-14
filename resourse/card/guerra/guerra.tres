@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://car1hw4ycq8ph"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_onh2w"]
+[ext_resource type="Texture2D" uid="uid://qk7jhkxn6dln" path="res://resourse/card/guerra/guerra.png" id="2_uclcj"]
+[ext_resource type="Script" uid="uid://bi1gprld7t1k5" path="res://resourse/card/guerra/guerra.gd" id="3_pqbx1"]
+
+[sub_resource type="Resource" id="Resource_q4rf5"]
+script = ExtResource("1_onh2w")
+max_health = 600
+skill_mana = 100
+base_attack = 50
+start_mana = 100
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_pqbx1")
+index = 11
+name = "guerra"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_q4rf5")
+img = ExtResource("2_uclcj")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bklvojuka0o5u"
+valid=false
+
+[deps]
+
+source_file="res://history_data/s4/save_game.csv"
+
+[params]
+
+compress=true
+delimiter=0

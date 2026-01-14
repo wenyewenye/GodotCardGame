@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cxbb4ra764qtl"
+
+[deps]
+
+files=["res://history_data/s3/save_game.name.translation", "res://history_data/s3/save_game.造成伤害.translation", "res://history_data/s3/save_game.承受伤害.translation", "res://history_data/s3/save_game.造成治疗.translation", "res://history_data/s3/save_game.收到治疗.translation", "res://history_data/s3/save_game.有效护盾.translation", "res://history_data/s3/save_game.击杀数.translation", "res://history_data/s3/save_game.位置.translation", "res://history_data/s3/save_game.胜利.translation", "res://history_data/s3/save_game.描述.translation", "res://history_data/s3/save_game.时间戳.translation"]
+
+source_file="res://history_data/s3/save_game.csv"
+dest_files=["res://history_data/s3/save_game.name.translation", "res://history_data/s3/save_game.造成伤害.translation", "res://history_data/s3/save_game.承受伤害.translation", "res://history_data/s3/save_game.造成治疗.translation", "res://history_data/s3/save_game.收到治疗.translation", "res://history_data/s3/save_game.有效护盾.translation", "res://history_data/s3/save_game.击杀数.translation", "res://history_data/s3/save_game.位置.translation", "res://history_data/s3/save_game.胜利.translation", "res://history_data/s3/save_game.描述.translation", "res://history_data/s3/save_game.时间戳.translation"]
+
+[params]
+
+compress=true
+delimiter=0

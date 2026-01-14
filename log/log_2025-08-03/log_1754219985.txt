@@ -1,0 +1,72 @@
+游戏开始
+turn start 当前回合数: 1
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 5.0 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 9.5 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 13.6 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 17.3 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 20.6 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[Bosque] 对 [Bosque] 回复了 18.6 HP
+%super%[Bosque] 对 [Bosque] 回复了 100.0 HP
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 11.8 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 15.7 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 19.2 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 22.3 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 25.1 HP
+[Bosque] 对 [capitan] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[Bosque] 对 [Bosque] 回复了 22.6 HP
+%super%[Bosque] 对 [Bosque] 回复了 100.0 HP
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[effect][capitan] 对 [capitan] Add了 -50.0% 伤害减免 (DamageReduction)
+[capitan] 对 [Bosque] 造成了 50.0 伤害
+[Bosque] 对 [Bosque] 回复了 15.4 HP
+[Bosque] 对 [capitan] 造成了 25.0 伤害
+[capitan] 死亡
+turn end 当前回合数: 13
+失败
+
+游戏结算

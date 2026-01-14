@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://cdcapfe2irryu"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_bny16"]
+[ext_resource type="Texture2D" uid="uid://sb6owcqjg8x3" path="res://resourse/card/queen/queen.png" id="2_0rkna"]
+[ext_resource type="Script" uid="uid://dbmr1fc0tak1o" path="res://resourse/card/queen/queen.gd" id="3_rxx4v"]
+
+[sub_resource type="Resource" id="Resource_6jbmt"]
+script = ExtResource("1_bny16")
+max_health = 500
+skill_mana = 100
+base_attack = 52
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_rxx4v")
+index = 14
+name = "queen"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_6jbmt")
+img = ExtResource("2_0rkna")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

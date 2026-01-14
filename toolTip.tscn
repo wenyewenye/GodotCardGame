@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://cp77omnrp0c0b"]
+
+[ext_resource type="Theme" uid="uid://cgghb8or1pary" path="res://base_theme.tres" id="1_cwsjp"]
+[ext_resource type="Script" uid="uid://dv622jf7w46vg" path="res://tool_tip.gd" id="2_pd86j"]
+[ext_resource type="Texture2D" uid="uid://dvf5jss17q4ws" path="res://resourse/card/warrior/warrior.png" id="3_bxmol"]
+
+[node name="ToolTip" type="PanelContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(135, 200)
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -136.0
+offset_top = -101.0
+offset_bottom = 101.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_cwsjp")
+script = ExtResource("2_pd86j")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+texture = ExtResource("3_bxmol")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+unique_name_in_owner = true
+clip_contents = false
+layout_mode = 2
+bbcode_enabled = true
+text = "生命：1
+法力：1"
+fit_content = true
+autowrap_mode = 0

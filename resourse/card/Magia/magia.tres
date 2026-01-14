@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bjklpgjbs1gos"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_y2xix"]
+[ext_resource type="Texture2D" uid="uid://fm806luil72y" path="res://resourse/card/Magia/Magia.png" id="2_5b02h"]
+[ext_resource type="Script" uid="uid://bsve25umxdlxx" path="res://resourse/card/Magia/magia.gd" id="3_p6b3c"]
+
+[sub_resource type="Resource" id="Resource_uga7v"]
+script = ExtResource("1_y2xix")
+max_health = 480
+skill_mana = 100
+base_attack = 50
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_p6b3c")
+index = 10
+name = "magia"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_uga7v")
+img = ExtResource("2_5b02h")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

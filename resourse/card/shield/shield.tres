@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bqm45nqd7mvlm"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_chxj7"]
+[ext_resource type="Texture2D" uid="uid://d2paxop5kp3fw" path="res://resourse/card/shield/shield.png" id="2_480qm"]
+[ext_resource type="Script" uid="uid://d1c7tfsptiiw4" path="res://resourse/card/shield/shield.gd" id="2_wjb6h"]
+
+[sub_resource type="Resource" id="Resource_480qm"]
+script = ExtResource("1_chxj7")
+max_health = 600
+skill_mana = 120
+base_attack = 50
+start_mana = 120
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("2_wjb6h")
+index = 16
+name = "shield"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_480qm")
+img = ExtResource("2_480qm")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

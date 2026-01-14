@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://di0ufrg7l2s8d"]
+
+[ext_resource type="FontFile" uid="uid://cubfhbg2j1cy6" path="res://resourse/font/QingNiaoHuaGuangJianMeiHei-2.ttf" id="1_iaoe6"]
+[ext_resource type="Script" uid="uid://4syhqjhc34qk" path="res://scene/game_logger/game_loger.gd" id="1_km230"]
+
+[sub_resource type="Theme" id="Theme_lcehb"]
+default_font = ExtResource("1_iaoe6")
+
+[node name="GameLogger" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+theme = SubResource("Theme_lcehb")
+script = ExtResource("1_km230")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_right = 272.0
+offset_bottom = 222.0
+editable = false
+wrap_mode = 1
+indent_wrapped_lines = true

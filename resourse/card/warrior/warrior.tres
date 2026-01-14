@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://be7uq7prwf1hc"]
+
+[ext_resource type="Script" uid="uid://bqt0tegbvaiib" path="res://resourse/card/warrior/warrior_card.gd" id="1_i6suk"]
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_wvbmt"]
+[ext_resource type="Texture2D" uid="uid://dvf5jss17q4ws" path="res://resourse/card/warrior/warrior.png" id="2_6le11"]
+
+[sub_resource type="Resource" id="Resource_wvbmt"]
+script = ExtResource("1_wvbmt")
+max_health = 5000
+skill_mana = 100
+base_attack = 50
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_i6suk")
+index = 0
+name = "warrior"
+prefer = "fornt"
+race = 0
+baseStat = SubResource("Resource_wvbmt")
+img = ExtResource("2_6le11")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

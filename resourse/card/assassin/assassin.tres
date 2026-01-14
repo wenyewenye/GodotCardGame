@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dpmuhv5hck8og"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_lgwic"]
+[ext_resource type="Texture2D" uid="uid://d3xk48eh8wjso" path="res://resourse/card/assassin/assassin.png" id="2_ns4ej"]
+[ext_resource type="Script" uid="uid://bqpoyvb2o841d" path="res://resourse/card/assassin/assassin.gd" id="3_lgwic"]
+
+[sub_resource type="Resource" id="Resource_ns4ej"]
+script = ExtResource("1_lgwic")
+max_health = 500
+skill_mana = 100
+base_attack = 50
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_lgwic")
+index = 15
+name = "assassin"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_ns4ej")
+img = ExtResource("2_ns4ej")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

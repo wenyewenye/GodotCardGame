@@ -1,0 +1,170 @@
+[gd_scene load_steps=4 format=3 uid="uid://dxqbd37acml7o"]
+
+[ext_resource type="Script" uid="uid://bv37vwfep1msi" path="res://scene/statistic_table/statistic_table.gd" id="1_5jn0p"]
+[ext_resource type="Script" uid="uid://d4nuqs8gg3vhf" path="res://scene/statistic_table/bar_draw_canvas.gd" id="2_b18ay"]
+[ext_resource type="Script" uid="uid://cosg3es58p6os" path="res://scene/statistic_table/game_recorder_table.gd" id="3_elhlu"]
+
+[node name="StatisticTable" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5jn0p")
+
+[node name="TabContainer" type="TabContainer" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 1148.0
+offset_bottom = 629.0
+current_tab = 1
+
+[node name="BarDrawCanvas" type="Control" parent="TabContainer"]
+visible = false
+custom_minimum_size = Vector2(700, 400)
+layout_mode = 2
+script = ExtResource("2_b18ay")
+metadata/_tab_index = 0
+
+[node name="DamageButton" type="CheckButton" parent="TabContainer/BarDrawCanvas"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 29.0
+offset_right = 100.0
+offset_bottom = 53.0
+text = "伤害"
+
+[node name="ReceiveButton" type="CheckButton" parent="TabContainer/BarDrawCanvas"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 66.0
+offset_right = 98.0
+offset_bottom = 90.0
+text = "承伤"
+
+[node name="DamageButton3" type="CheckButton" parent="TabContainer/BarDrawCanvas"]
+visible = false
+layout_mode = 0
+offset_left = 53.0
+offset_top = 103.0
+offset_right = 97.0
+offset_bottom = 127.0
+
+[node name="GameRecorderTable" type="Control" parent="TabContainer"]
+layout_mode = 2
+script = ExtResource("3_elhlu")
+metadata/_tab_index = 1
+
+[node name="test" type="Button" parent="TabContainer/GameRecorderTable"]
+layout_mode = 2
+offset_left = 988.0
+offset_top = 535.0
+offset_right = 1117.0
+offset_bottom = 566.0
+text = "test"
+
+[node name="infoEdit" type="TextEdit" parent="TabContainer/GameRecorderTable"]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 33.0
+offset_right = 1111.0
+offset_bottom = 472.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/GameRecorderTable"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 513.0
+offset_right = 578.0
+offset_bottom = 553.0
+
+[node name="total" type="Label" parent="TabContainer/GameRecorderTable/HBoxContainer"]
+layout_mode = 2
+text = "总数"
+
+[node name="count" type="Label" parent="TabContainer/GameRecorderTable/HBoxContainer"]
+layout_mode = 2
+text = "场次"
+
+[node name="Ratio" type="Label" parent="TabContainer/GameRecorderTable/HBoxContainer"]
+layout_mode = 2
+text = "%"
+
+[node name="FriendConitionContain" type="VBoxContainer" parent="TabContainer/GameRecorderTable"]
+layout_mode = 0
+offset_right = 231.0
+offset_bottom = 441.0
+
+[node name="SpinBox" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox2" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox3" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox4" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox5" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox6" type="SpinBox" parent="TabContainer/GameRecorderTable/FriendConitionContain"]
+layout_mode = 2
+
+[node name="EnemyConitionContain" type="VBoxContainer" parent="TabContainer/GameRecorderTable"]
+layout_mode = 0
+offset_left = 266.0
+offset_top = -1.0
+offset_right = 503.0
+offset_bottom = 435.0
+
+[node name="SpinBox" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox2" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox3" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox4" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox5" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="SpinBox6" type="SpinBox" parent="TabContainer/GameRecorderTable/EnemyConitionContain"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="TabContainer/GameRecorderTable"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 567.0
+offset_right = 539.0
+offset_bottom = 594.0
+
+[node name="TriggerButton" type="Button" parent="TabContainer/GameRecorderTable"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 854.0
+offset_top = 534.0
+offset_right = -173.0
+offset_bottom = -32.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "统计"
+
+[node name="QuitButton" type="Button" parent="."]
+layout_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 720.0
+offset_top = 567.0
+offset_right = -325.0
+offset_bottom = -47.0
+text = "退出"

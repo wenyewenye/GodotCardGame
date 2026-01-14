@@ -1,0 +1,153 @@
+[gd_scene load_steps=24 format=3 uid="uid://bw2wc7h5t2dsm"]
+
+[ext_resource type="Script" uid="uid://df5b8lhfgdtia" path="res://scene/Battle.gd" id="1_i72oh"]
+[ext_resource type="PackedScene" uid="uid://bu0l6lt5036bo" path="res://scene/setting.tscn" id="2_1p7ja"]
+[ext_resource type="Texture2D" uid="uid://c2kebgvms8o3m" path="res://resourse/img/background/space-9250868_1280.jpg" id="2_7l6my"]
+[ext_resource type="PackedScene" uid="uid://hva38od3mch4" path="res://scene/card_board/card_board.tscn" id="3_gu0yj"]
+[ext_resource type="Script" uid="uid://bq2vuveqcagu1" path="res://scene/card_repo.gd" id="4_hr15w"]
+[ext_resource type="PackedScene" uid="uid://t3vgmmvfyuhh" path="res://scene/card_ui/card_ui.tscn" id="5_dinjq"]
+[ext_resource type="Resource" uid="uid://be7uq7prwf1hc" path="res://resourse/card/warrior/warrior.tres" id="6_qxbua"]
+[ext_resource type="Resource" uid="uid://cb85jidnd8y2d" path="res://resourse/card/Sonido/sonida.tres" id="7_7l6my"]
+[ext_resource type="PackedScene" uid="uid://cp77omnrp0c0b" path="res://toolTip.tscn" id="7_trytt"]
+[ext_resource type="PackedScene" uid="uid://di0ufrg7l2s8d" path="res://scene/game_logger/game_loger.tscn" id="8_4u3ho"]
+[ext_resource type="Resource" uid="uid://ihfrcn5ka6br" path="res://resourse/card/sniper/sniper.tres" id="9_dinjq"]
+[ext_resource type="Resource" uid="uid://bw6hkwfv301am" path="res://resourse/card/monje/monje.tres" id="10_dinjq"]
+[ext_resource type="Resource" uid="uid://dh6wft8txdcpx" path="res://resourse/card/spider/spider.tres" id="11_qxbua"]
+[ext_resource type="Resource" uid="uid://b268pjdkcmijn" path="res://resourse/card/vampiro/vampiro.tres" id="11_trytt"]
+[ext_resource type="Resource" uid="uid://cmwec8mqujy8i" path="res://resourse/card/capitan/capitan.tres" id="12_trytt"]
+[ext_resource type="Resource" uid="uid://bos28065d27vo" path="res://resourse/card/bosque/bosque.tres" id="13_4u3ho"]
+[ext_resource type="Resource" uid="uid://shkt5ooxdhq5" path="res://resourse/card/ghost/ghost.tres" id="14_xjrs7"]
+[ext_resource type="Resource" uid="uid://dc1bjtqbb1lol" path="res://resourse/card/pantano/pantano.tres" id="15_w1sdm"]
+[ext_resource type="Resource" uid="uid://bjklpgjbs1gos" path="res://resourse/card/Magia/magia.tres" id="16_tr3q7"]
+[ext_resource type="Resource" uid="uid://car1hw4ycq8ph" path="res://resourse/card/guerra/guerra.tres" id="17_2p1x5"]
+[ext_resource type="StyleBox" uid="uid://c5mg0asc2ulv4" path="res://resourse/style/green_card_style.tres" id="20_npgpt"]
+[ext_resource type="Resource" uid="uid://dh68domcvodvx" path="res://resourse/card/arquero/arquero.tres" id="20_p0gym"]
+[ext_resource type="PackedScene" uid="uid://dxqbd37acml7o" path="res://scene/statistic_table/statistic_table.tscn" id="23_js5r1"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_i72oh")
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(0.690196, 0.647059, 0.635294, 0.686275)
+position = Vector2(574, 321.5)
+scale = Vector2(0.9, 0.81125)
+texture = ExtResource("2_7l6my")
+metadata/_edit_lock_ = true
+
+[node name="CardBoard" parent="." groups=["Board", "board"] instance=ExtResource("3_gu0yj")]
+position = Vector2(365, 389)
+
+[node name="RepoCanvas" type="CanvasLayer" parent="." groups=["ui_layer"]]
+
+[node name="MenuBar" type="MenuBar" parent="RepoCanvas"]
+offset_right = 1146.0
+offset_bottom = 40.0
+start_index = 1
+
+[node name="PopupMenu" type="PopupMenu" parent="RepoCanvas/MenuBar"]
+title = "文件"
+position = Vector2i(0, 35)
+size = Vector2i(100, 35)
+visible = true
+unfocusable = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="RepoCanvas"]
+custom_minimum_size = Vector2(80, 120)
+offset_left = 3.0
+offset_top = 36.0
+offset_right = 256.0
+offset_bottom = 1024.0
+
+[node name="CardRepo" type="GridContainer" parent="RepoCanvas/ScrollContainer"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+columns = 3
+script = ExtResource("4_hr15w")
+metadata/_edit_use_anchors_ = true
+
+[node name="CardUI" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("6_qxbua")
+
+[node name="sonida" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("7_7l6my")
+
+[node name="sniper" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("9_dinjq")
+
+[node name="vampiro" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("11_trytt")
+
+[node name="monje" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("10_dinjq")
+
+[node name="spider" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("11_qxbua")
+
+[node name="capitan" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("12_trytt")
+style = ExtResource("20_npgpt")
+
+[node name="Bosque" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("13_4u3ho")
+
+[node name="ghost" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("14_xjrs7")
+
+[node name="pantano" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("15_w1sdm")
+
+[node name="magia" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("16_tr3q7")
+
+[node name="guerra" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("17_2p1x5")
+
+[node name="arquero" parent="RepoCanvas/ScrollContainer/CardRepo" instance=ExtResource("5_dinjq")]
+layout_mode = 2
+card = ExtResource("20_p0gym")
+style = ExtResource("20_npgpt")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(573, 328)
+
+[node name="EnemyCardBoard" parent="." groups=["EnemyBoard"] instance=ExtResource("3_gu0yj")]
+position = Vector2(362, 43)
+
+[node name="ToolTip" parent="." instance=ExtResource("7_trytt")]
+offset_left = 985.0
+offset_top = 18.0
+offset_right = 1145.0
+offset_bottom = 258.0
+
+[node name="GameLogger" parent="." instance=ExtResource("8_4u3ho")]
+offset_left = 719.0
+offset_top = 334.0
+offset_right = 719.0
+offset_bottom = 334.0
+scale = Vector2(1.56904, 1.41993)
+metadata/_edit_use_anchors_ = true
+
+[node name="WindowCanvas" type="CanvasLayer" parent="."]
+
+[node name="Setting" parent="WindowCanvas" instance=ExtResource("2_1p7ja")]
+visible = false
+z_index = 2
+offset_left = 35.0
+offset_top = 3.0
+offset_right = 35.0
+offset_bottom = 3.0
+
+[node name="StatisticTable" parent="WindowCanvas" instance=ExtResource("23_js5r1")]
+visible = false

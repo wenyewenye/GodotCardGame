@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dt43wxa3p0765"
+
+[deps]
+
+files=["res://temp/save_game.name.translation", "res://temp/save_game.造成伤害.translation", "res://temp/save_game.承受伤害.translation", "res://temp/save_game.造成治疗.translation", "res://temp/save_game.收到治疗.translation", "res://temp/save_game.有效护盾.translation", "res://temp/save_game.击杀数.translation", "res://temp/save_game.位置.translation", "res://temp/save_game.胜利.translation", "res://temp/save_game.描述.translation", "res://temp/save_game.时间戳.translation"]
+
+source_file="res://temp/save_game.csv"
+dest_files=["res://temp/save_game.name.translation", "res://temp/save_game.造成伤害.translation", "res://temp/save_game.承受伤害.translation", "res://temp/save_game.造成治疗.translation", "res://temp/save_game.收到治疗.translation", "res://temp/save_game.有效护盾.translation", "res://temp/save_game.击杀数.translation", "res://temp/save_game.位置.translation", "res://temp/save_game.胜利.translation", "res://temp/save_game.描述.translation", "res://temp/save_game.时间戳.translation"]
+
+[params]
+
+compress=true
+delimiter=0

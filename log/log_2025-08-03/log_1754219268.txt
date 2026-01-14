@@ -1,0 +1,52 @@
+游戏开始
+turn start 当前回合数: 1
+[spider] 对 [monje] 造成了 50.0 伤害
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[spider] 对 [monje] 造成了 50.0 伤害
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[spider] 对 [monje] 造成了 50.0 伤害
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[spider] 对 [monje] 造成了 50.0 伤害
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[spider] 对 [monje] 造成了 50.0 伤害
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+[effect][spider] 对 [monje] Add了 30.0 伤害 (Poison)
+%super%[monje] 对 [spider] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [spider] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [spider] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [spider] cause 150.0 damage Add了 30.0 Block
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[spider] 对 [monje] 造成了 56.0 伤害
+[effect][spider] 对 [monje] Add了 30.0 伤害 (Poison)
+[monje] 对 [spider] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[spider] 对 [monje] 造成了 56.0 伤害
+[effect][spider] 对 [monje] Add了 30.0 伤害 (Poison)
+[monje] 对 [spider] 造成了 50.0 伤害
+[spider] 死亡
+[monje] 对 [monje] Add了 10.0 Block
+turn end 当前回合数: 8
+失败
+
+游戏结算

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://cb85jidnd8y2d"]
+
+[ext_resource type="Script" uid="uid://4pee63tmfvty" path="res://resourse/card/Sonido/sonida.gd" id="1_474lp"]
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_ljqd2"]
+[ext_resource type="Texture2D" uid="uid://sabu6ada4pxg" path="res://resourse/card/Sonido/sonida.png" id="2_q8h5e"]
+
+[sub_resource type="Resource" id="Resource_ljqd2"]
+script = ExtResource("1_ljqd2")
+max_health = 460
+skill_mana = 100
+base_attack = 48
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_474lp")
+index = 1
+name = "sonida"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_ljqd2")
+img = ExtResource("2_q8h5e")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

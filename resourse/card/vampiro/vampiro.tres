@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://b268pjdkcmijn"]
+
+[ext_resource type="Script" uid="uid://b1s6s7lqxggmt" path="res://resourse/card/vampiro/vampiro.gd" id="1_85rvl"]
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_dxpsd"]
+[ext_resource type="Texture2D" uid="uid://bf8epj2qbxmey" path="res://resourse/card/vampiro/vampiro.png" id="2_4p3bw"]
+
+[sub_resource type="Resource" id="Resource_4p3bw"]
+script = ExtResource("1_dxpsd")
+max_health = 540
+skill_mana = 100
+base_attack = 48
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_85rvl")
+index = 3
+name = "vampiro"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_4p3bw")
+img = ExtResource("2_4p3bw")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bos28065d27vo"]
+
+[ext_resource type="Script" uid="uid://b87is53kvfvs6" path="res://resourse/card/bosque/bosque.gd" id="1_473m8"]
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_bmmj6"]
+[ext_resource type="Texture2D" uid="uid://ctqlnfbfmmr8y" path="res://resourse/card/bosque/bosque.png" id="2_ad3mp"]
+
+[sub_resource type="Resource" id="Resource_asw7s"]
+script = ExtResource("1_bmmj6")
+max_health = 560
+skill_mana = 100
+base_attack = 42
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_473m8")
+index = 7
+name = "Bosque"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_asw7s")
+img = ExtResource("2_ad3mp")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://ihfrcn5ka6br"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_arvh1"]
+[ext_resource type="Script" uid="uid://dlpkc5mexersu" path="res://resourse/card/sniper/sniper.gd" id="2_arvh1"]
+[ext_resource type="Texture2D" uid="uid://c5eys5qdutdcy" path="res://resourse/card/sniper/sniper.png" id="2_ldj24"]
+
+[sub_resource type="Resource" id="Resource_ldj24"]
+script = ExtResource("1_arvh1")
+max_health = 500
+skill_mana = 100
+base_attack = 52
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("2_arvh1")
+index = 2
+name = "sniper"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_ldj24")
+img = ExtResource("2_ldj24")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

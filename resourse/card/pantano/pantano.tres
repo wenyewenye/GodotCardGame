@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dc1bjtqbb1lol"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_7qonq"]
+[ext_resource type="Texture2D" uid="uid://dnuvxmrmeb28m" path="res://resourse/card/pantano/pantano.png" id="2_hr7ie"]
+[ext_resource type="Script" uid="uid://cnmlu21s0vy70" path="res://resourse/card/pantano/pantano.gd" id="3_racnu"]
+
+[sub_resource type="Resource" id="Resource_yh58i"]
+script = ExtResource("1_7qonq")
+max_health = 600
+skill_mana = 20
+base_attack = 48
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_racnu")
+index = 9
+name = "pantano"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_yh58i")
+img = ExtResource("2_hr7ie")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

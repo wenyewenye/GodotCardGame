@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://bw2wc7h5t2dsm"]
+
+[ext_resource type="Script" uid="uid://df5b8lhfgdtia" path="res://scene/Battle.gd" id="1_462ap"]
+[ext_resource type="Texture2D" uid="uid://c2kebgvms8o3m" path="res://resourse/img/background/space-9250868_1280.jpg" id="1_ppd22"]
+[ext_resource type="PackedScene" uid="uid://hva38od3mch4" path="res://scene/card_board/card_board.tscn" id="2_3cebx"]
+[ext_resource type="Script" uid="uid://bq2vuveqcagu1" path="res://scene/card_repo.gd" id="3_3cebx"]
+[ext_resource type="PackedScene" uid="uid://t3vgmmvfyuhh" path="res://scene/card_ui/card_ui.tscn" id="3_tytcy"]
+[ext_resource type="Resource" uid="uid://be7uq7prwf1hc" path="res://resourse/card/warrior/warrior.tres" id="5_tytcy"]
+[ext_resource type="PackedScene" uid="uid://cp77omnrp0c0b" path="res://toolTip.tscn" id="7_5qbti"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_462ap")
+isDebug = true
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(0.690196, 0.647059, 0.635294, 0.686275)
+position = Vector2(574, 321.5)
+scale = Vector2(0.9, 0.81125)
+texture = ExtResource("1_ppd22")
+metadata/_edit_lock_ = true
+
+[node name="CardBoard" parent="." instance=ExtResource("2_3cebx")]
+position = Vector2(365, 389)
+
+[node name="RepoCanvas" type="CanvasLayer" parent="." groups=["ui_layer"]]
+
+[node name="CardRepo" type="VBoxContainer" parent="RepoCanvas"]
+custom_minimum_size = Vector2(0, 20)
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -184.0
+offset_right = 80.0
+offset_bottom = 184.0
+grow_vertical = 2
+script = ExtResource("3_3cebx")
+metadata/_edit_use_anchors_ = true
+
+[node name="CardUI" parent="RepoCanvas/CardRepo" instance=ExtResource("3_tytcy")]
+layout_mode = 2
+card = ExtResource("5_tytcy")
+
+[node name="CardUI2" parent="RepoCanvas/CardRepo" instance=ExtResource("3_tytcy")]
+layout_mode = 2
+card = ExtResource("5_tytcy")
+
+[node name="CardUI3" parent="RepoCanvas/CardRepo" instance=ExtResource("3_tytcy")]
+layout_mode = 2
+card = ExtResource("5_tytcy")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(573, 328)
+
+[node name="EnemyCardBoard" parent="." instance=ExtResource("2_3cebx")]
+position = Vector2(365, 0)
+
+[node name="ToolTip" parent="." instance=ExtResource("7_5qbti")]
+offset_left = 985.0
+offset_top = 4.0
+offset_right = 1145.0
+offset_bottom = 244.0

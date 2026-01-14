@@ -1,0 +1,105 @@
+游戏开始
+turn start 当前回合数: 1
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 5.0 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 1
+turn start 当前回合数: 2
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 9.5 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 2
+turn start 当前回合数: 3
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 13.6 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 3
+turn start 当前回合数: 4
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 17.3 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 4
+turn start 当前回合数: 5
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 20.6 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 5
+turn start 当前回合数: 6
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] cause 150.0 damage Add了 30.0 Block
+[Bosque] 对 [Bosque] 回复了 33.6 HP
+%super%[Bosque] 对 [Bosque] 回复了 130.0 HP
+turn end 当前回合数: 6
+turn start 当前回合数: 7
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 22.3 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 7
+turn start 当前回合数: 8
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 25.1 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 8
+turn start 当前回合数: 9
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 27.6 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 9
+turn start 当前回合数: 10
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 29.9 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 10
+turn start 当前回合数: 11
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 32.0 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 11
+turn start 当前回合数: 12
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] 造成了 50.0 伤害
+%super%[monje] 对 [monje] Add了 10.0 Block
+%super%[monje] 对 [Bosque] cause 150.0 damage Add了 30.0 Block
+[Bosque] 对 [Bosque] 回复了 43.8 HP
+%super%[Bosque] 对 [Bosque] 回复了 130.0 HP
+turn end 当前回合数: 12
+turn start 当前回合数: 13
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 31.5 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 13
+turn start 当前回合数: 14
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 33.4 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+turn end 当前回合数: 14
+turn start 当前回合数: 15
+[monje] 对 [Bosque] 造成了 50.0 伤害
+[monje] 对 [monje] Add了 10.0 Block
+[Bosque] 对 [Bosque] 回复了 35.1 HP
+[Bosque] 对 [monje] 造成了 50.0 伤害
+[monje] 死亡
+turn end 当前回合数: 15
+失败
+
+游戏结算

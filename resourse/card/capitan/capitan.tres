@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://cmwec8mqujy8i"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_3vty3"]
+[ext_resource type="Script" uid="uid://codd54mpet4wy" path="res://resourse/card/capitan/capitan.gd" id="1_7sdx1"]
+[ext_resource type="Texture2D" uid="uid://cejn0prrvxb5g" path="res://resourse/card/capitan/capitan.png" id="2_ia5cq"]
+
+[sub_resource type="Resource" id="Resource_ywc2t"]
+script = ExtResource("1_3vty3")
+max_health = 630
+skill_mana = 100
+base_attack = 40
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_7sdx1")
+index = 6
+name = "capitan"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_ywc2t")
+img = ExtResource("2_ia5cq")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

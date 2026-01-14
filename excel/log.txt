@@ -1,0 +1,4 @@
+gd_excelexporter.config-WARNING:检测到版本更新，更新配置文件到最新版本 3.0.1
+gd_excelexporter.core.engine-INFO:导出：C:\Users\Game\godot\project\test\cardgame\excel\data\示例.xlsx:示例-demo => C:\Users\Game\godot\project\test\cardgame\excel\excel_data\示例\demo.gd
+gd_excelexporter.core.engine-INFO:导出：C:\Users\Game\godot\project\test\cardgame\excel\data\示例.xlsx:示例-demo2 => C:\Users\Game\godot\project\test\cardgame\excel\excel_data\示例\demo2.gd
+gd_excelexporter.generators.gds2-INFO:创建：excel_data\settings.gd

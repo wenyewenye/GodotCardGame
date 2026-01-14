@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://shkt5ooxdhq5"]
+
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_3iixh"]
+[ext_resource type="Texture2D" uid="uid://yhwp0y0o1ws1" path="res://resourse/card/ghost/ghost.png" id="2_xf0sk"]
+[ext_resource type="Script" uid="uid://b3tenjju16rlm" path="res://resourse/card/ghost/ghost.gd" id="3_3iixh"]
+
+[sub_resource type="Resource" id="Resource_xf0sk"]
+script = ExtResource("1_3iixh")
+max_health = 500
+skill_mana = 100
+base_attack = 50
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("3_3iixh")
+index = 8
+name = "ghost"
+prefer = "back"
+race = 0
+baseStat = SubResource("Resource_xf0sk")
+img = ExtResource("2_xf0sk")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"

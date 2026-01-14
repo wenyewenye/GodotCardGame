@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bw6hkwfv301am"]
+
+[ext_resource type="Script" uid="uid://cmypa1x2c16wc" path="res://resourse/card/monje/monje.gd" id="1_4wplc"]
+[ext_resource type="Script" uid="uid://bf50wy83bxac6" path="res://custom_resources/stat.gd" id="1_qlgpt"]
+[ext_resource type="Texture2D" uid="uid://cxfve5nh41ag8" path="res://resourse/card/monje/monje.png" id="2_og6pd"]
+
+[sub_resource type="Resource" id="Resource_qlgpt"]
+script = ExtResource("1_qlgpt")
+max_health = 580
+skill_mana = 80
+base_attack = 55
+start_mana = 0
+metadata/_custom_type_script = "uid://bf50wy83bxac6"
+
+[resource]
+script = ExtResource("1_4wplc")
+index = 4
+name = "monje"
+prefer = "front"
+race = 0
+baseStat = SubResource("Resource_qlgpt")
+img = ExtResource("2_og6pd")
+metadata/_custom_type_script = "uid://btm5kl7d2e8ti"
